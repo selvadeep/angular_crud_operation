@@ -1,0 +1,89 @@
+<div class="container-fluid">
+	<div class="row" style="margin:5px 5px; padding: 1%;">
+		<form class="panel"  style="border: 1px solid #32c5d2;" name="userForm">
+	    <div class="panel-heading text-center" style="background-color: #32c5d2; color:#fff;">Add a New User</div>
+	      <div class="panel-body">
+		     	<div class="row">
+		     	  <div class="col-sm-12">
+		     	    <h3 class="page-header">General</h3>
+		     	  </div>
+		     	</div>
+		     	<div class="row" style="padding-left: 20px;padding-right: 20px;">
+		      	<div class="col-sm-12">
+		       		<div class="form-group">
+		         			<p><label for="firstName" style="margin-bottom: 15px;">FirstName</label>
+		          		<input name="title" type="text" ng-model="vm.user.firstName" class="form-control" id="firstName" special-char required>
+		       	</div>
+		        </div>
+		      </div>
+		     	<div class="row" style="padding-left: 20px;padding-right: 20px;">
+		      	<div class="col-sm-12">
+		       		<div class="form-group">
+		         			<p><label for="lastName" style="margin-bottom: 15px;">lastName</label>
+		          		<input name="title" type="text" ng-model="vm.user.lastName" class="form-control" id="lastName" special-char required>
+		       	</div>
+		        </div>
+		      </div>
+		     	<div class="row" style="padding-left: 20px;padding-right: 20px;">
+		      	<div class="col-sm-12">
+		       		<div class="form-group">
+		         			<p><label for="age" style="margin-bottom: 15px;">Age</label>
+		          		<input name="title" type="text" ng-model="vm.user.age" class="form-control" id="age" special-char required>
+		       	</div>
+		        </div>
+		      </div>
+		     	<div class="row" style="padding-left: 20px;padding-right: 20px;">
+		      	<div class="col-sm-12">
+		       		<div class="form-group">
+		         			<p><label for="employer" style="margin-bottom: 15px;">Employer</label>
+		          		<input name="title" type="text" ng-model="vm.user.employer" class="form-control" id="employer" special-char required>
+		       	</div>
+		        </div>
+		      </div>
+		      		      		     	<div class="row" style="padding-left: 20px;padding-right: 20px;">
+		      	<div class="col-sm-12">
+		       		<div class="form-group">
+		         			<p><label for="joiningDate" style="margin-bottom: 15px;">JoiningDate</label>
+		          		<input name="title" type="text" ng-model="vm.user.joiningDate" class="form-control" id="joiningDate" special-char required>
+		       	</div>
+		        </div>
+		      </div>
+		     	<div class="row" style="padding-left: 20px;padding-right: 20px;">
+		      	<div class="col-sm-12">
+		       		<div class="form-group">
+		         			<p><label for="location" style="margin-bottom: 15px;">Location</label>
+		          		<input name="title" type="text" ng-model="vm.user.location" class="form-control" id="location" special-char required>
+		       	</div>
+		        </div>
+		      </div>
+		     	<div class="row" style="padding-left: 20px;padding-right: 20px;">
+		      	<div class="col-sm-12">
+		       		<div class="form-group">
+		         			<p><label for="id" style="margin-bottom: 15px;">ID</label>
+		          		<input name="title" type="text" ng-model="vm.user.id" class="form-control" id="id" special-char required>
+		       	</div>
+		        </div>
+		      </div>      
+<!-- 		<div class="col-md-12">
+			<div class="form-group">
+				<button class="btn btn-circle green" ng-click="vm.submit()">Submit</button>
+			</div>
+		</div> -->
+    <div class="row" style=" margin-top: 60px;">
+				     	<div class="col-sm-12">
+						     <div class="text-center" style="margin-bottom: 20px;">
+								 <button type="button" class="btn btn-circle green" ng-click="vm.submit()"  style=" color:#000; ">SUBMIT
+								 </button>
+								 <button type="button" class="btn btn-circle default">Cancel</button>	
+								 <button type="button" class="btn btn-circle default" ng-click="vm.list()" >Back to List</button>	
+							 </div>
+				     	</div>
+				     </div>
+
+
+	</div>
+
+	</div><!--panel body-->
+	    
+	</div><!--div row end-->      				
+</div><!--conatiner end-->
